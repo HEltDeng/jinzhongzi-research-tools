@@ -1,0 +1,31 @@
+# Source-only archive: all local data, source downloads, outputs and dependencies
+# stay ignored. Add future scripts explicitly after reviewing their contents.
+/*
+!/.gitignore
+!/README.md
+!/research_fetch.py
+!/research_extract.py
+!/prepare_research.py
+!/build_report.py
+!/build_workbook.mjs
+!/research/
+
+/research/*
+!/research/interactive-teacher-20261025/
+!/research/gold-study-20261025/
+!/research/gold-reality-20261025/
+!/research/candidate-plans-20261025/
+!/research/teacher-alumni-20261026/
+
+/research/interactive-teacher-20261025/*
+!/research/interactive-teacher-20261025/build_report.py
+/research/gold-study-20261025/*
+!/research/gold-study-20261025/build_study.py
+/research/gold-reality-20261025/*
+!/research/gold-reality-20261025/build_report.py
+/research/candidate-plans-20261025/*
+!/research/candidate-plans-20261025/build_report.py
+/research/teacher-alumni-20261026/*
+!/research/teacher-alumni-20261026/build_documents.py
+!/research/teacher-alumni-20261026/build_brief.py
+!/research/teacher-alumni-20261026/fix_brief_mobile.py
