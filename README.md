@@ -1,21 +1,24 @@
-# 金种子研究工具源码归档
+# 金种子研究工具
 
-保存金种子杯调研过程中使用的资料抓取、数据整理、Word 报告和工作簿生成、文档排版修复脚本。本仓库没有网站或在线服务。
+保存调研抓取、数据整理、Word 报告、工作簿及文档排版工具，并包含重建现有报告所需的自编文本模板和结构化公开研究输入。下载网页、原始参考文档、生成的 DOCX/XLSX/PDF、预览截图和缓存不入库。
 
-脚本保留原有目录结构。原始资料、下载页面、研究数据、报告正文、生成的 DOCX/XLSX/PDF、图片、临时文件和第三方依赖均留在本机，不纳入版本管理。`.gitignore` 只放行本次审查过的 12 个脚本及仓库说明；新增脚本需先审查再明确放行。
+## 重建报告
 
-## 脚本范围
+Python 3.12：`python -m pip install -r requirements.lock.txt`。依次运行：
 
-- `research_fetch.py`、`research_extract.py`、`prepare_research.py`：资料抓取、PDF 信息抽取与研究数据整理。
-- `build_report.py`、`build_workbook.mjs`：研究报告和工作簿生成。
-- `research/` 内的 7 个脚本：专题报告、候选方案、老师汇报、学长咨询文档及手机排版修复。
+```sh
+python build_report.py
+python research/interactive-teacher-20261025/build_report.py
+python research/gold-study-20261025/build_study.py
+python research/gold-reality-20261025/build_report.py
+python research/candidate-plans-20261025/build_report.py
+python research/teacher-alumni-20261026/build_documents.py
+python research/teacher-alumni-20261026/build_brief.py
+python research/teacher-alumni-20261026/fix_brief_mobile.py
+```
 
-## 复用说明
+结果在 `outputs/`。结构化输入固定本次已使用的公开资料时点，不需要重新抓取可能变化的网页。需要更新研究时才运行抓取/提取脚本；它们需要公开网络及对应原始材料。
 
-这些脚本为具体研究任务编写，包含固定的输入文件、输出路径和文档内容，复用前需要按实际目录和任务调整。仓库不包含它们依赖的本地输入资料，克隆后不能直接重建全部成果。
+工作簿脚本需要 Node.js 和 `@oai/artifact-tool` 2.8.106，该库由 Codex 文档运行环境提供。在该环境中让 `node_modules` 指向其依赖目录后运行 `node build_workbook.mjs`；普通电脑需先取得相同运行库，不将其第三方程序包复制进源码仓库。
 
-Python 脚本使用标准库及 `lxml`、`pdfplumber`、`python-docx`；工作簿脚本使用 Node.js 与 `@oai/artifact-tool`。本次归档未安装依赖，也未执行资料抓取或报告生成。
-
-## 当前源码同步
-
-2026-11-01 的完整克隆、构建与外部配置说明见 [SOURCE_STATE.md](SOURCE_STATE.md)。如本文保留早期冻结版本或交付分支描述，以本次源码接手说明及实际检出的提交为准。
+布局字体由宿主机提供；生成文档可复建，但 PDF 渲染、字体和创建时间会影响二进制摘要。源码同步清单见 [SOURCE_STATE.md](SOURCE_STATE.md)。

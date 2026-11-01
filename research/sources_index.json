@@ -1,0 +1,314 @@
+[
+  {
+    "id": "S01",
+    "title": "2025年金种子杯获奖名单正式通知及附件",
+    "date": "2025-09-09",
+    "url": "https://hunan.gov.cn/topic/dxscy/dxscyZCJC/dxscysjzc/202510/t20251015_33826774.html",
+    "type": "官方名单",
+    "use": "首届159项及官方赛道"
+  },
+  {
+    "id": "S02",
+    "title": "第二届金种子杯获奖名单正式通知及七个项目附件",
+    "date": "2026-07-01 发文 07-08上线",
+    "url": "https://jyt.hunan.gov.cn/jyt/sjyt/xxgk/tzgg/202607/t20260708_1180348.html",
+    "type": "官方名单",
+    "use": "第二届205项 最终铜奖58项"
+  },
+  {
+    "id": "S03",
+    "title": "第三届金种子杯创业大赛报名启动",
+    "date": "2026-09-30",
+    "url": "https://www.hunan.gov.cn/hnszf/hnyw/zwdt/202609/t20260930_34074643.html",
+    "type": "省政府门户报道",
+    "use": "第三届报名与决赛时间 网络评审专家和AI权重"
+  },
+  {
+    "id": "S04",
+    "title": "关于做好第三届金种子杯参赛准备工作的预通知",
+    "date": "2026-10-01",
+    "url": "https://cyxy.xtu.edu.cn/info/1065/2566.htm",
+    "type": "高校通知",
+    "use": "六主赛道 毕业五年内 奖项 不重复参赛要求"
+  },
+  {
+    "id": "S05",
+    "title": "常德学院转发第三届金种子杯通知",
+    "date": "2026-10-16",
+    "url": "https://www.changdecollege.cn/rwysxy/info/1081/6493.htm",
+    "type": "高校转发",
+    "use": "单项目单赛道 人数及6分钟路演6分钟答辩安排；校内截止日期不适用于长理"
+  },
+  {
+    "id": "S06",
+    "title": "关于举办第二届金种子杯大赛的通知及赛道方案",
+    "date": "2025-09-24 发文",
+    "url": "https://jyt.hunan.gov.cn/jyt/sjyt/xxgk/tzgg/202510/t20251023_1168604.html",
+    "type": "官方规则",
+    "use": "30/25/20/15/10评分结构；第二届原定赛程与实际赛程有调整"
+  },
+  {
+    "id": "S07",
+    "title": "关于举办2025年金种子杯大赛的通知及各赛道评分表",
+    "date": "2025",
+    "url": "https://www.huhst.edu.cn/cxcy/info/1079/2599.htm",
+    "type": "高校转发官方规则",
+    "use": "首届传统赛道25/25/20/20/10 其余30/25/20/15/10"
+  },
+  {
+    "id": "S08",
+    "title": "湖南省大力支持大学生创业若干政策措施",
+    "date": "2024-11-29发布 12-01施行",
+    "url": "https://www.hunan.gov.cn/hnszf/xxgk/wjk/szfbgt/202411/t20241129_33514183.html",
+    "type": "政策",
+    "use": "七个一 学生创业支持背景 并非评委给分记录"
+  },
+  {
+    "id": "S09",
+    "title": "2025年湖南省政府工作报告",
+    "date": "2025-01-27",
+    "url": "https://www.hunan.gov.cn/hnszf/hnyw/sy/hnyw1/202501/t20250127_33576548.html",
+    "type": "政策",
+    "use": "4×4 传统产业数字绿色改造 重点产业链 文化科技融合"
+  },
+  {
+    "id": "S10",
+    "title": "2026年湖南省政府工作报告",
+    "date": "2026-02-24",
+    "url": "https://www.hunan.gov.cn/hnszf/hnyw/sy/hnyw1/202602/t20260224_33919204.html",
+    "type": "政策",
+    "use": "人工智能应用场景 产业发展与青年创业"
+  },
+  {
+    "id": "S11",
+    "title": "2025年国家政府工作报告",
+    "date": "2025-03",
+    "url": "https://www.miit.gov.cn/xwfb/szyw/art/2025/art_ce535a539ed04ba0a413ad6a50d201fc.html",
+    "type": "国家政策",
+    "use": "人工智能+ 智能终端 制造业和新兴产业"
+  },
+  {
+    "id": "S12",
+    "title": "2026年国家政府工作报告",
+    "date": "2026-03-14",
+    "url": "https://www.moe.gov.cn/jyb_xwfb/xw_zt/moe_357/2026/2026_zt03/baogao/202603/t20260314_1430876.html",
+    "type": "国家政策",
+    "use": "人工智能商业化规模化应用与生产性服务业"
+  },
+  {
+    "id": "S13",
+    "title": "支持引导公路水路交通基础设施数字化转型升级的通知",
+    "date": "2024-05-01公开",
+    "url": "https://xxgk.mot.gov.cn/jigou/zhghs/202405/t20240501_4138079.html",
+    "type": "国家政策",
+    "use": "财建〔2024〕96号 小切口应用 在役基础设施 数字管养"
+  },
+  {
+    "id": "S14",
+    "title": "2025年全省交通运输科技信息工作要点",
+    "date": "2025-03-25发文",
+    "url": "https://jtt.hunan.gov.cn/xxgk/zwgg/202503/t20250326_33622356.html",
+    "type": "湖南行业政策",
+    "use": "基础设施转型 全路段视频智能分析 交通绿色能源融合研究"
+  },
+  {
+    "id": "S15",
+    "title": "关于人工智能+交通运输的实施意见",
+    "date": "2025-09-26公开",
+    "url": "https://big5.mot.gov.cn/gate/big5/xxgk.mot.gov.cn/2020/jigou/kjs/202509/t20250925_4177256.html",
+    "type": "国家政策",
+    "use": "交科技发〔2025〕92号；晚于首届决赛 不作首届获奖原因"
+  },
+  {
+    "id": "S16",
+    "title": "电动汽车充电设施服务能力三年倍增行动方案",
+    "date": "2025-09-24发文 10-15公开",
+    "url": "https://www.ndrc.gov.cn/xwdt/tzgg/202510/P020251015596625238420.pdf",
+    "type": "国家政策",
+    "use": "2025至2027充电设施服务与供电能力 高速服务区"
+  },
+  {
+    "id": "S17",
+    "title": "推动养护模式改革 构建长效发展机制",
+    "date": "2026-01-20",
+    "url": "https://jtt.hunan.gov.cn/jtt/jjzdgz/gzh2026/jyjl2026gzh/202601/t20260120_33898118.html",
+    "type": "湖南交通实践",
+    "use": "湘潭长周期养护 病害修补期限与资金支付相挂钩"
+  },
+  {
+    "id": "S18",
+    "title": "长理首届金种子杯获奖情况",
+    "date": "2025-05-26",
+    "url": "https://www.csust.edu.cn/info/1299/21778.htm",
+    "type": "高校获奖报道",
+    "use": "冰峰筑路传统产业赛道第一；长理校方牵头口径9项"
+  },
+  {
+    "id": "S19",
+    "title": "交通学院2025年创新大赛项目介绍",
+    "date": "2025-08-04",
+    "url": "https://www.csust.edu.cn/jtysgcxy/info/1014/19159.htm",
+    "type": "高校项目介绍",
+    "use": "冰峰材料改性及皓途双指标检测；赛后介绍 不倒推新增成果"
+  },
+  {
+    "id": "S20",
+    "title": "皓途智检团队走进三一智能工厂",
+    "date": "2025-07-03",
+    "url": "https://www.csust.edu.cn/jtysgcxy/info/1225/19119.htm",
+    "type": "高校项目报道",
+    "use": "皓途金种子银奖及雷达AI结合；不同技术版本不拼成已验证单一产品"
+  },
+  {
+    "id": "S21",
+    "title": "湖南科技大学刘东海教师事迹",
+    "date": "2025栏目 日期未明确",
+    "url": "https://rsc.hnust.edu.cn/jsfc/2025/yxjs2/2a26483c41834772b0a017062a453fdd.htm",
+    "type": "高校报道",
+    "use": "御网卫士网络安全团队及政企订单；订单时间和金额未披露"
+  },
+  {
+    "id": "S22",
+    "title": "潇湘智控企业介绍",
+    "date": "未标注页面日期 检索2026-10-20",
+    "url": "https://career.csu.edu.cn/company/view/id/537050",
+    "type": "企业自述 高校承载",
+    "use": "视觉 传感 工业模型与铝电解场景；不采用未经独立验证的精度或收入"
+  },
+  {
+    "id": "S23",
+    "title": "潇湘智控等企业从实验室走向大创板",
+    "date": "2025-06-19",
+    "url": "https://equ.csu.edu.cn/article/detail/11/62",
+    "type": "高校转载报道",
+    "use": "第二届赛前已有公司和巡检产品的时间证据"
+  },
+  {
+    "id": "S24",
+    "title": "球秀创业分享会",
+    "date": "2025-03-24",
+    "url": "https://xgw.csu.edu.cn/info/1123/15089.htm",
+    "type": "高校活动报道",
+    "use": "第二届赛前AI赛事剪辑和场馆业务；商业数据为团队分享口径"
+  },
+  {
+    "id": "S25",
+    "title": "亦月科技产品与试点介绍",
+    "date": "未标注页面日期 检索2026-10-20",
+    "url": "https://yee-yoo.com/about",
+    "type": "企业自述",
+    "use": "AI隐形实物指纹 手机验真 企业数据；现状不能证明参赛时状态"
+  },
+  {
+    "id": "S26",
+    "title": "镁甲团队技术与转化报道",
+    "date": "2025-05-28",
+    "url": "https://news.csu.edu.cn/info/1062/161578.htm",
+    "type": "高校转载媒体报道",
+    "use": "双层复合涂层与技术协议；预计营收不是已实现营收"
+  },
+  {
+    "id": "S27",
+    "title": "长沙理工大学交通运输工程学科介绍",
+    "date": "未标注当前更新日",
+    "url": "https://www.csust.edu.cn/jtysgcxy/xkjs/xkjs/jtysgc.htm",
+    "type": "高校学科信息",
+    "use": "交通运输工程学科及研究基础 不代表团队已获资源授权"
+  },
+  {
+    "id": "S28",
+    "title": "长沙理工大学电气学院学科介绍",
+    "date": "持续栏目",
+    "url": "https://www.csust.edu.cn/dq/xkky/xkjs.htm",
+    "type": "高校学科信息",
+    "use": "电气与交通控制学科基础"
+  },
+  {
+    "id": "S29",
+    "title": "巡检精灵2.0助力招商路检高速巡查",
+    "date": "2024-07-08",
+    "url": "https://www.cmct.cn/ctc/index.php?c=show&id=20",
+    "type": "厂商一手资料",
+    "use": "既有轻量化巡检终端 云平台 数据对接；证明该方向已有供给"
+  },
+  {
+    "id": "S30",
+    "title": "岳阳市公路科技服务中心引进AI巡检",
+    "date": "2026-06-16",
+    "url": "https://jtt.hunan.gov.cn/jtt/hnglj/gldt/202606/t20260616_34004352.html",
+    "type": "政府用户侧报道",
+    "use": "湖南已有AI巡检使用场景 通用识别并非空白"
+  },
+  {
+    "id": "S31",
+    "title": "推动工业领域设备更新实施方案",
+    "date": "2024-03-27发文",
+    "url": "https://app.www.gov.cn/govdata/gov/202404/10/513811/article.html",
+    "type": "国家政策",
+    "use": "软硬件更新 智能检测 工业绿色改造 先于两届赛事"
+  },
+  {
+    "id": "S32",
+    "title": "第二届金种子杯金奖项目与早期公示报道",
+    "date": "2026-06-03",
+    "url": "https://www.hunantoday.cn/news/xhn/202606/32822190.html",
+    "type": "媒体早期公示",
+    "use": "与最终名单对照；206项是早期口径 本项目库不采用"
+  },
+  {
+    "id": "S33",
+    "title": "长理电气学院2026挑战杯院赛名单",
+    "date": "2026-03-25",
+    "url": "https://www.csust.edu.cn/dq/info/1021/19420.htm",
+    "type": "其他赛事官方名单",
+    "use": "同校邻近方向检索；不混入金种子获奖统计"
+  },
+  {
+    "id": "S34",
+    "title": "湖南省高速公路数字化转型公共服务项目招标公告",
+    "date": "2025-01-20",
+    "url": "https://jtt.hunan.gov.cn/jtt/xxgk/zdlyxxgk/zbzb/zbgg/202501/t20250120_33569826.html",
+    "type": "官方采购公告",
+    "use": "现有系统与供应链格局；不能把省级项目总投资当团队可得收入"
+  },
+  {
+    "id": "S35",
+    "title": "长理举办交能融合研讨会",
+    "date": "2026-10-12",
+    "url": "https://www.csust.edu.cn/xww2017/info/1005/63694.htm",
+    "type": "高校学科建设",
+    "use": "交通与电力交叉成为学校明确建设方向"
+  },
+  {
+    "id": "S36",
+    "title": "交通运输工程学科国家级科研与教学平台",
+    "date": "页面未标更新时间；检索2026-10-20",
+    "url": "https://www.csust.edu.cn/ylxkb/xkpt/gjjpt.htm",
+    "type": "高校平台信息",
+    "use": "光储充运行仿真、公路养护、能源互联网；不代表本团队已获准使用"
+  },
+  {
+    "id": "S37",
+    "title": "交通学院李荻教师主页",
+    "date": "页面标2025-11-10；内容持续更新",
+    "url": "https://www.csust.edu.cn/jtysgcxy/info/1130/19403.htm",
+    "type": "教师主页",
+    "use": "AI道路检测养护；当前页面明确欢迎相关本科生加入；不保证接收本团队"
+  },
+  {
+    "id": "S38",
+    "title": "华为技术有限公司来长理交流交能融合",
+    "date": "2024-10-31",
+    "url": "https://www.csust.edu.cn/info/1299/21307.htm",
+    "type": "高校校企交流",
+    "use": "超快充、交通微电网、光储充及重卡充电廊道合作议题"
+  },
+  {
+    "id": "S39",
+    "title": "经管学院交能融合交叉学科研讨会",
+    "date": "2026-08-12",
+    "url": "https://www.csust.edu.cn/jgxy/info/1047/17507.htm",
+    "type": "高校报道",
+    "use": "交通、电气、经管跨学院组织线索；取正文核验"
+  }
+]

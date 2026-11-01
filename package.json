@@ -1,0 +1,12 @@
+{
+  "name": "jinzhongzi-research-tools",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "workbook": "node build_workbook.mjs"
+  },
+  "dependencies": {
+    "@oai/artifact-tool": "2.8.106"
+  }
+}

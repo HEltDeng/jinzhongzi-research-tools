@@ -10,7 +10,7 @@ cd jinzhongzi-research-tools
 git submodule update --init --recursive
 ```
 
-研究脚本源码归档；Python 依赖 lxml、pdfplumber、python-docx，工作簿依赖 @oai/artifact-tool。原始资料和研究报告正文留在本机；本仓库可以复用工具，但不能仅凭源码还原所有既有研究文档。详见 README。
+研究报告的自编文本模板与结构化公开输入已纳入源码；Python 依赖由 requirements.lock.txt 固定。按 README 的顺序可重建报告。工作簿需要 Codex 提供的 @oai/artifact-tool 2.8.106。
 
 ## 保留与排除
 

@@ -31,3 +31,26 @@
 !/research/teacher-alumni-20261026/fix_brief_mobile.py
 
 !/SOURCE_STATE.md
+
+# Required authored inputs and normalized public research data.
+!/research/sources_index.json
+!/research/awards.json
+!/research/awards_enriched.json
+!/research/gold_analysis.json
+!/research/interactive-teacher-20261025/report-body.txt
+!/research/gold-study-20261025/intro.md
+!/research/gold-study-20261025/sources.txt
+!/research/gold-study-20261025/cases.txt
+!/research/gold-study-20261025/closing.md
+!/research/gold-reality-20261025/maturity.txt
+!/research/gold-reality-20261025/report-body.txt
+!/research/candidate-plans-20261025/report-body.txt
+!/research/teacher-alumni-20261026/teacher-front.txt
+!/research/teacher-alumni-20261026/teacher-extended.txt
+!/research/teacher-alumni-20261026/teacher-plan.txt
+!/research/teacher-alumni-20261026/alumni.txt
+!/research/teacher-alumni-20261026/teacher-brief.txt
+!/research/teacher-alumni-20261026/teacher-toc.json
+!/requirements.in
+!/requirements.lock.txt
+!/package.json
