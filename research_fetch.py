@@ -1,6 +1,5 @@
 from pathlib import Path
 import json, re, concurrent.futures, subprocess
-from urllib.request import urlopen, Request
 from lxml import html
 from urllib.parse import urljoin
 

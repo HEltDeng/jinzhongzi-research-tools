@@ -1,7 +1,7 @@
 from pathlib import Path
-import json, collections
+import json
 from docx import Document
-from docx.shared import Inches, Pt, Cm, RGBColor
+from docx.shared import Pt, Cm, RGBColor
 from docx.enum.text import WD_ALIGN_PARAGRAPH
 from docx.oxml import OxmlElement
 from docx.oxml.ns import qn
