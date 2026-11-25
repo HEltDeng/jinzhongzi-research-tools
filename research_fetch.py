@@ -1,7 +1,9 @@
 from pathlib import Path
-import json, re, concurrent.futures, subprocess
+import json, re, concurrent.futures
+from time import monotonic
 from lxml import html
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlsplit
+from urllib.request import HTTPErrorProcessor, build_opener
 
 BASE=Path(__file__).resolve().parent
 RAW=BASE/"research"/"sources"
@@ -19,14 +21,60 @@ SOURCES={
  "2027_rules_repost":"https://www.changdecollege.cn/rwysxy/info/1081/6493.htm",
 }
 
-def get(url):
- p=subprocess.run(["curl","-L","--fail","--max-time","45","-sS",url],capture_output=True)
- if p.returncode: raise RuntimeError(p.stderr.decode()[:300])
- return p.stdout
+# Published source pages and their official attachment server.
+SOURCE_HOSTS = {urlsplit(url).hostname for url in SOURCES.values()} | {"cms.jyt.hunan.gov.cn"}
+PAGE_LIMIT = 4 * 1024 * 1024
+ATTACHMENT_LIMIT = 32 * 1024 * 1024
+
+
+def checked_url(url):
+    parts = urlsplit(url)
+    if (parts.scheme != "https" or parts.hostname not in SOURCE_HOSTS
+            or parts.username is not None or parts.password is not None
+            or parts.port not in (None, 443)):
+        raise ValueError("Source URL is outside the configured HTTPS origins")
+    return url
+
+
+class SourceResponses(HTTPErrorProcessor):
+    # The caller handles HTTP statuses and closes each redirect before reading its body.
+    def http_response(self, request, response):
+        return response
+
+    https_response = http_response
+
+
+def get(url, limit):
+    deadline = monotonic() + 45
+    opener = build_opener(SourceResponses())
+    for _ in range(11):
+        remaining = deadline - monotonic()
+        if remaining <= 0:
+            raise TimeoutError("Source download timed out")
+        with opener.open(checked_url(url), timeout=min(10, remaining)) as response:
+            if response.status in (301, 302, 303, 307, 308):
+                location = response.headers.get("Location") or response.headers.get("URI")
+                if not location:
+                    raise ValueError("Source redirect has no destination")
+                url = checked_url(urljoin(url, location))
+                continue
+            if not 200 <= response.status < 300:
+                raise ValueError(f"Source returned HTTP {response.status}")
+            data = bytearray()
+            while monotonic() < deadline:
+                chunk = response.read1(min(64 * 1024, limit + 1 - len(data)))
+                if not chunk:
+                    return data
+                data.extend(chunk)
+                if len(data) > limit:
+                    raise ValueError("Source exceeds download size limit")
+            raise TimeoutError("Source download timed out")
+    raise ValueError("Too many source redirects")
+
 
 def fetch(item):
  key,url=item
- data=get(url)
+ data=get(url, PAGE_LIMIT)
  text=data.decode("utf-8",errors="replace")
  (RAW/f"{key}.html").write_text(text,encoding="utf-8")
  soup=html.fromstring(text)
@@ -43,7 +91,7 @@ def fetch(item):
   ext=match.group(1) if match else ("xlsx" if key=="2025_awards_notice" else "pdf" if "awards" in key or "2027" in key else "doc")
   p=RAW/f"{key}_attachment{n+1}.{ext}"
   try:
-   b=get(l["url"]);p.write_bytes(b)
+   b=get(l["url"], ATTACHMENT_LIMIT);p.write_bytes(b)
    l["local"]=str(p.relative_to(BASE))
   except Exception as e: l["error"]=str(e)
  return result
